@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "collaborate-6a96e"
+    "default": "collaborate-6a96e",
+    "staging": "collaborate-6a96e"
   }
 }

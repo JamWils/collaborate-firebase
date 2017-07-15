@@ -1,0 +1,14 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Small functions to upload test data to Firebase",
+  "main": "admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Wilson",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-tools": "^3.9.1"
+  }
+}

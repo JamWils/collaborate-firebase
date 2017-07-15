@@ -172,7 +172,7 @@ function createAnnotateUrl() {
     return `https://vision.googleapis.com/v1/images:annotate?key=${functions.config().firebase.apiKey}`;
 }
 
-exports.pubsubTest = functions.pubsub.topic('projectMessages').onPublish(event => {
+exports.pubsubTest = functions.pubsub.topic('packagePurchased').onPublish(event => {
     const pubSubMessage = event.data;
 
     let name = null;
