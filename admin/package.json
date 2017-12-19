@@ -9,6 +9,7 @@
   "author": "James Wilson",
   "license": "MIT",
   "dependencies": {
+    "chance": "^1.0.10",
     "firebase-tools": "^3.9.1"
   }
 }
